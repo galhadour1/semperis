@@ -1,0 +1,8 @@
+.navbar-conatiner {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  flex: 1;
+  padding: 50px 20px;
+}

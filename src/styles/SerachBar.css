@@ -1,0 +1,23 @@
+.search-container {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchbar-input {
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.search-btn {
+  width: fit-content;
+  place-self: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: rgb(116, 12, 123);
+  color: white;
+  font-size: large;
+}

@@ -1,0 +1,22 @@
+.genres-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.genre {
+  margin-right: 10px;
+}
+
+.genre-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: #f024e4;
+  color: white;
+  font-size: medium;
+}
+
+.selected {
+  border-color: white;
+}

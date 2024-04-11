@@ -1,0 +1,24 @@
+.movie-display-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  flex: 1 0 calc(10% - 20px);
+  cursor: pointer;
+}
+
+.movie-img {
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.5s ease;
+}
+
+.movie-img:hover {
+  transform: scale(1.2);
+}
+
+.movie-name {
+  font-size: large;
+  font-weight: 700;
+}

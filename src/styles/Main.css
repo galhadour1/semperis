@@ -1,0 +1,33 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(240, 36, 228);
+  background: radial-gradient(
+    circle,
+    rgba(240, 36, 228, 1) 0%,
+    rgba(24, 9, 31, 1) 100%
+  );
+}
+
+.main-body {
+  display: flex;
+  height: 100%;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 20px;
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  color: white;
+  margin: 70px 0px;
+  place-self: center;
+}
